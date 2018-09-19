@@ -9,8 +9,8 @@
 @import "base";
 @import "plugins/svg-grid";
 @import "baseline-grid";
-@import "style";
 @import "structure";
+@import "style";
 
 
 html {
@@ -44,6 +44,10 @@ a {
     text-decoration: solid;
   }
   text-decoration: none;
+}
+
+h2, h3, h4 {
+  color: #555555;
 }
 
 /*

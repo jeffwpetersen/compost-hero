@@ -24,16 +24,20 @@ body {
 
 .outerspace {
   min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-width {
   //background: susy-svg-grid() no-repeat scroll;
-  //max-width: 800px;
+  max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section {
+padding-left: 1rem;
+padding-right: 1rem;
 }
 
 /*
@@ -42,6 +46,7 @@ body {
 
 .main-section {
   .container {
+    background: susy-svg-grid() no-repeat scroll;
     display: grid;
     grid-template-columns: repeat(12, 2fr);
     grid-column-gap: 1rem;
@@ -49,6 +54,20 @@ body {
 
     //grid-template-columns: 200px 1fr 200px;
     //grid-template-rows: auto 1fr auto;
+
+    @include breakpoint($phone) {
+      display: flex;
+      flex-direction: column;
+      border: solid 10px black;
+    }
+    @include breakpoint($tween) {
+      display: flex;
+      flex-direction: column;
+    }
+    @include breakpoint($desktop) {
+    }
+    @include breakpoint($big) {
+    }
   }
 }
 
@@ -58,6 +77,7 @@ main {
 
 aside {
   grid-column: span 3;
+  background: susy-svg-grid() no-repeat scroll;
 }
 
 nav {
