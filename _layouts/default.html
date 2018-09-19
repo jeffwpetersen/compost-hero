@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="body">
+<div class="outerspace">
+    <header class="section">
+        <div class="site-width">
+            <h1>Vertical Rhythm</h1>
+            <h1>&</h1>
+            <h1>Jekyll</h1>
+
+        </div>
+    </header>
+    <nav class="section">
+        <div class="site-width">{% include nav.html %}</div>
+    </nav>
+    <section class="section main-section">
+        <div class="site-width container">
+            <aside><h2>Left Aside</h2></aside>
+            <main>
+                {{content}}
+            </main>
+            <aside><h2>Right Aside</h2></aside>
+        </div>
+    </section>
+    <footer class="section">
+        <div class="site-width"><h1>footer</h1></div>
+    </footer>
+    {% include script.html %}
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+// http://nowodzinski.pl/syncope/
+
+p {
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: 0.158203,
+          $font-size: 1,
+          $line-height: 2,
+          $leading-top: 0,
+          $leading-bottom: 1
+  );
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-family: $headline-font;
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: $headline-baseline, // https://jamonserrano.github.io/plumber-sass/baselines/
+          $font-size: 5.06,
+          $line-height: 4,
+          $leading-top: 1,
+          $leading-bottom: 1
+  );
+}
+
+h2 {
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: $headline-baseline,
+          $font-size: 3.38,
+          $line-height: 2,
+          $leading-top: 3,
+          $leading-bottom: 2
+  );
+}
+
+h3 {
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: $headline-baseline,
+          $font-size: 2.25,
+          $line-height: 2,
+          $leading-top: 1,
+          $leading-bottom: 1
+  );
+}
+
+h4 {
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: $headline-baseline,
+          $font-size: 1.50,
+          $line-height: 2,
+          $leading-top: 1,
+          $leading-bottom: 1
+  );
+}
