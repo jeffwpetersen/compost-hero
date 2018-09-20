@@ -9,7 +9,9 @@ p {
           $leading-top: 0,
           $leading-bottom: 1
   );
-  margin-bottom: .5rem;
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
 }
 
 h1 {
@@ -18,10 +20,24 @@ h1 {
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline, // https://jamonserrano.github.io/plumber-sass/baselines/
           $font-size: 5.06,
-          $line-height: 4,
+          $line-height: 6,
           $leading-top: 2,
           $leading-bottom: 2
   );
+  @include breakpoint($phone) {
+    @include plumber(
+            $font-size: 5.06 * .55,
+            $line-height: 3,
+            $leading-bottom: 2
+    );
+  }
+  @include breakpoint($tween) {
+    @include plumber(
+            $font-size: 5.06 * .8,
+            $line-height: 4,
+            $leading-bottom: 2
+    );
+  }
 }
 
 h2 {
@@ -29,10 +45,22 @@ h2 {
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline,
           $font-size: 3.38,
-          $line-height: 2,
+          $line-height: 4,
           $leading-top: 3,
           $leading-bottom: 2
   );
+  @include breakpoint($phone) {
+    @include plumber(
+            $font-size: 3.38 * .55,
+            $line-height: 2
+    );
+  }
+  @include breakpoint($tween) {
+    @include plumber(
+            $font-size: 3.38 * .8,
+            $line-height: 3
+    );
+  }
 }
 
 h3 {
@@ -40,10 +68,23 @@ h3 {
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline,
           $font-size: 2.25,
-          $line-height: 2,
+          $line-height: 3,
           $leading-top: 1,
           $leading-bottom: 1
   );
+  @include breakpoint($phone) {
+    @include plumber(
+            $font-size: 2.25 * .55,
+            $line-height: 2
+    );
+    margin-bottom: 0;
+  }
+  @include breakpoint($tween) {
+    @include plumber(
+            $font-size: 2.25 * .8,
+            $line-height: 2
+    );
+  }
 }
 
 h4 {
@@ -52,7 +93,19 @@ h4 {
           $baseline: $headline-baseline,
           $font-size: 1.50,
           $line-height: 2,
-          $leading-top: 1,
+          $leading-top: 0,
           $leading-bottom: 1
   );
+  @include breakpoint($phone) {
+    @include plumber(
+            $font-size: 1,
+            $line-height: 2
+    );
+  }
+  @include breakpoint($tween) {
+    @include plumber(
+            $font-size: 1,
+            $line-height: 2
+    );
+  }
 }

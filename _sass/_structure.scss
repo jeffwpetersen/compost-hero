@@ -8,8 +8,6 @@ html, body {
 }
 
 html {
-  font-size: 16px;
-  // set font size for responsive type
   box-sizing: border-box;
 }
 
@@ -45,13 +43,12 @@ padding-right: 1rem;
 */
 
 .main-section {
-  .container {
-    background: susy-svg-grid() no-repeat scroll;
+  .layout-container {
+    //background: susy-svg-grid() no-repeat scroll;
     display: grid;
     grid-template-columns: repeat(12, 2fr);
-    grid-column-gap: 1rem;
+    grid-column-gap: 2rem;
     //grid-auto-rows: 50px 350px 50px;
-
     //grid-template-columns: 200px 1fr 200px;
     //grid-template-rows: auto 1fr auto;
 
@@ -68,17 +65,38 @@ padding-right: 1rem;
     }
     @include breakpoint($big) {
     }
+
+    main {
+      grid-column: span 6;
+    }
+    aside {
+      grid-column: span 3;
+      //background: susy-svg-grid() no-repeat scroll;
+    }
   }
 }
 
-main {
-  grid-column: span 6;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  grid-gap: 4em 4em;
+  padding: 3em;
+  .grid-item {
+    img {
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+  @include breakpoint($desktop) {
+    grid-template-columns: repeat(auto-fill, minmax(25%, 2fr));
+  }
+  @include breakpoint($big) {
+    grid-template-columns: repeat(auto-fill, minmax(20%, 2fr));
+  }
 }
 
-aside {
-  grid-column: span 3;
-  background: susy-svg-grid() no-repeat scroll;
-}
+
 
 nav {
   ul {

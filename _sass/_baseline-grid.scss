@@ -8,7 +8,7 @@
 @mixin baseline-grid {
   position: relative;
   &:after {
-    background: url('data:image/svg+xml;utf8,<svg height="#{$base-line-height-px / 1px}" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(0, 255, 255, 1)" /></svg>') repeat top left;
+    background: url('data:image/svg+xml;utf8,<svg height="#{($base-line-height-px / 1px) * 1}" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(0, 255, 255, 1)" /></svg>') repeat top left;
     content: "";
     display: block;
     pointer-events: none;
