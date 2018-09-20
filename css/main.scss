@@ -70,7 +70,7 @@ header {
 }
 
 .main-section {
-  //@include baseline-grid();
+  @include baseline-grid();
 }
 
 
