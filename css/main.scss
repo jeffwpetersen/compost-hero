@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "normalize";
 @import "susy";
 @import "vendor/plumber";
@@ -13,10 +14,17 @@
 @import "style";
 
 
+.main-section {
+  // @include baseline-grid();
+}
+.site-width {
+  //background: susy-svg-grid() no-repeat scroll;
+}
+
+
 html {
   // set font size for responsive type
   font-size: $base-font-size;
-
   background-color: darkgray;
 }
 
@@ -30,32 +38,9 @@ body {
 }
 
 
-a {
-  color: $theme-color;
-  &:link {
-    color: $theme-color;
-  }
-  &:visited {
-    color: $theme-dark;
-  }
-  &:hover {
-    color: $theme-comp;
-  }
-  &:active {
-    color: $theme-comp-dark;
-    text-decoration: solid;
-  }
-  text-decoration: none;
-}
-
-h2, h3, h4 {
-  color: #555555;
-}
-
 /*
 * in progress
 */
-
 
 header {
   background-image: url("/images/img.jpg");
@@ -69,16 +54,10 @@ header {
   color: white;
 }
 
-.main-section {
-  @include baseline-grid();
-}
-
-
 .columns {
   background-color: gray;
   border: solid 1px lightcoral;
 }
-
 
 blockquote {
   @include plumber($baseline: $quote-baseline);
@@ -87,9 +66,16 @@ blockquote {
 
 @include breakpoint(100px) {
 
-
 }
 
 .background {
   background-color: $theme-light;
+}
+
+/*
+* Styleguide
+*/
+
+.margin-top-none {
+  margin-top: 0 !important;
 }
