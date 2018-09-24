@@ -12,13 +12,14 @@
 @import "baseline-grid";
 @import "structure";
 @import "style";
+@import "nav";
 
 
 .main-section {
-  // @include baseline-grid();
+   @include baseline-grid();
 }
 .site-width {
-  //background: susy-svg-grid() no-repeat scroll;
+  // background: susy-svg-grid() no-repeat scroll;
 }
 
 
@@ -47,11 +48,11 @@ header {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  @include baseline-grid();
   text-align: center;
   overflow: auto;
   padding-bottom: $base-grid-height;
   color: white;
+  //   @include baseline-grid();
 }
 
 .columns {
@@ -71,6 +72,8 @@ blockquote {
 .background {
   background-color: $theme-light;
 }
+
+
 
 /*
 * Styleguide
