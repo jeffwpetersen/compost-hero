@@ -16,7 +16,7 @@
 
 
 .main-section {
-   @include baseline-grid();
+    //@include baseline-grid();
 }
 .site-width {
   // background: susy-svg-grid() no-repeat scroll;
@@ -79,6 +79,9 @@ blockquote {
 * Styleguide
 */
 
+.margin-top {
+  margin-top: 1rem;
+}
 .margin-top-none {
   margin-top: 0 !important;
 }

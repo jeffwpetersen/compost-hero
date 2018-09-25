@@ -20,7 +20,6 @@ h2, h3 {
   color: #555555;
 }
 
-
 /*
 * Typography
 */
@@ -48,33 +47,43 @@ h1 {
           $baseline: $headline-baseline, // https://jamonserrano.github.io/plumber-sass/baselines/
           $font-size: 5.06,
           $line-height: 6,
-          $leading-top: 3,
+          $leading-top: 4,
           $leading-bottom: 1
   );
   @include breakpoint($phone) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 5.06 * .55,
             $line-height: 3,
+            $leading-top: 6,
             $leading-bottom: 2
     );
   }
   @include breakpoint($tween) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 5.06 * .7,
             $line-height: 4,
+            $leading-top: 6,
             $leading-bottom: 2
     );
   }
   @include breakpoint($desktop) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 5.06 * .8,
             $line-height: 4,
+            $leading-top: 5,
             $leading-bottom: 2
     );
   }
 }
 
 h2 {
+  font-family: $headline-font;
   @include plumber(
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline,
@@ -85,25 +94,38 @@ h2 {
   );
   @include breakpoint($phone) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 3.38 * .55,
-            $line-height: 3
+            $line-height: 3,
+            $leading-top: 3,
+            $leading-bottom: 1
     );
   }
   @include breakpoint($tween) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 3.38 * .7,
-            $line-height: 3
+            $line-height: 3,
+            $leading-top: 3,
+            $leading-bottom: 1
     );
   }
   @include breakpoint($desktop) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 3.38 * .8,
-            $line-height: 3
+            $line-height: 3,
+            $leading-top: 3,
+            $leading-bottom: 1
     );
   }
 }
 
 h3 {
+  font-family: $headline-font;
   @include plumber(
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline,
@@ -114,52 +136,67 @@ h3 {
   );
   @include breakpoint($phone) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 2.25 * .55,
-            $line-height: 2
+            $line-height: 2,
+            $leading-top: 2,
+            $leading-bottom: 1
     );
     margin-bottom: 0;
   }
   @include breakpoint($tween) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 2.25 * .7,
-            $line-height: 2
+            $line-height: 2,
+            $leading-top: 2,
+            $leading-bottom: 1
     );
   }
   @include breakpoint($desktop) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 2.25 * .8,
-            $line-height: 2
+            $line-height: 2,
+            $leading-top: 2,
+            $leading-bottom: 1
     );
   }
 }
 
 h4 {
+  font-family: $headline-font;
   @include plumber(
           $grid-height: $base-grid-height,
           $baseline: $headline-baseline,
           $font-size: 1.50,
           $line-height: 2,
-          $leading-top: 2,
+          $leading-top: 1,
           $leading-bottom: 1
   );
   @include breakpoint($phone) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 1,
             $line-height: 2,
+            $leading-top: 1,
             $leading-bottom: 0
     );
   }
   @include breakpoint($tween) {
     @include plumber(
+            $grid-height: $base-grid-height,
+            $baseline: $headline-baseline,
             $font-size: 1,
             $line-height: 2,
+            $leading-top: 1,
             $leading-bottom: 0
     );
   }
-}
-
-ul {
-  margin-bottom: $base-line-height-px;
 }
 
 ul li {

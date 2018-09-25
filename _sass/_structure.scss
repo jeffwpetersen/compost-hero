@@ -54,7 +54,6 @@ padding-right: 1rem;
     @include breakpoint($phone) {
       display: flex;
       flex-direction: column;
-      border: solid 10px black;
     }
     @include breakpoint($tween) {
       display: flex;

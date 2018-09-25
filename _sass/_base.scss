@@ -28,10 +28,10 @@ $base-line-height-px: ($base-font-size * $base-grid-height) / 1rem; // Visual La
 
 
 $body-font: "Helvetica", sans-serif;
-$body-baseline: 0.148;
+$body-baseline: 0.16;
 
-$headline-font: "Helvetica";
-$headline-baseline: 0.148;
+$headline-font: "Helvetica", sans-serif;
+$headline-baseline: .16;
 
 $quote-font: Georgia, serif;
 $quote-baseline: 0.151123;
