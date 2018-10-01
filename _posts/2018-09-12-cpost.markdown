@@ -1,23 +1,21 @@
 ---
 layout: post
-title:  "Cpost"
+title:  "Use leaf compost as mulch in your landscaping"
 date:   2018-09-12 08:51:11 -0500
 categories: jekyll update
 ---
 <h2 class="style">Turn your leaves into high quality compost mulch in just 2 months.</h2>
 All of those leaves and you don't know what to do with them. If you want your bushes and shrubs to stand out and maybe get a bite to eat, you should consider putting your leaves where God intended, under the trees and shrubs that made them.
-<div><img src ="/sites/default/files/blog/compost_as_mulch.jpg">
+<div><img src ="/images/blog/compost_as_mulch.jpg">
 Leaf compost will help maintain moisture during drought conditions and organisms in the soil can use the leaves for food and in turn provide nutrients to the plants. Leaf compost can also be combined with natural wood chips to create a denser mulch effect. The leaves and wood chips will decompose together.</div>
 
 <div class="clear fix padding-top">
-<img src ="/sites/default/files/blog/brownie-pile-grid.jpg">After just 14 days in the Compost Hero leaves are covered in a fine white fungus. The temperature has spiked to nearly 140 degrees and fallen off to around 110 degrees.<br />
+<img src ="/images/blog/brownie-pile-grid.jpg">After just 14 days in the Compost Hero leaves are covered in a fine white fungus. The temperature has spiked to nearly 140 degrees and fallen off to around 110 degrees.<br />
 
 after just 30 days This bach of compost was turned from a pile of leaves and grass clippings into mulch suitable for the landscape or garden.
 </div>
-<img src ="/sites/default/files/blog/finished_compost.jpg">
+<img src ="/images/blog/finished_compost.jpg">
 <p class="clear-fix">
 <div class="margin padding">
-Find out more In my 30 Days of leaf composting video.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qb29OyCFlSs" frameborder="0" allowfullscreen></iframe>
 </div>
 </p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pasta"
+title:  "Swiss Chard and Ricotta Cheese Pasta"
 date:   2018-09-12 08:51:11 -0500
 categories: jekyll update
 ---
@@ -8,7 +8,7 @@ categories: jekyll update
 <div class="recipe">
 it's sometimes hard to know what to do with a vegetable once you've grown it. Swiss Chard is like that. Swiss Chard like Radicchio, is bitter raw but provides depth and flavor when cooked.
 This recipe is a quick and colorful meal that takes only 30 minutes.
-<img src="/sites/default/files/blog/IMG_2137.JPG">
+<img src="/images/blog/IMG_2137.JPG">
 <div class="recipeIngredents">
 <h3>Ingredients</h3>
 <dl>
@@ -31,5 +31,5 @@ This recipe is a quick and colorful meal that takes only 30 minutes.
 </li><li><span class="recipeStepsHeading">6.</span> <span class="recipeStepsBody">Add reserved pasta water as needed.</span>
 </li></ul>
 Garnish with grated romano or parmesan cheese. A simple great tasting recipe with vegetables you grew yourself.
-<img src="/sites/default/files/blog/IMG_2141.jpg">
+<img src="/images/blog/IMG_2141.jpg">
 </div></div>
