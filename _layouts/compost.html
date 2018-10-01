@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body class="body">
+<div class="outerspace">
+    {% include headder.html %}
+    <nav class="section">
+        <div class="site-width">{% include nav.html %}</div>
+    </nav>
+    <section class="main-full">
+        <div class="site-width layout-container">
+            <main class="section">
+                {{content}}
+            </main>
+        </div>
+    </section>
+    <footer class="section">
+        <div class="site-width"><h1>footer</h1></div>
+    </footer>
+    {% include script.html %}
+</div>
+</body>
+</html>

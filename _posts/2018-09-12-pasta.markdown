@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Pasta"
+date:   2018-09-12 08:51:11 -0500
+categories: jekyll update
+---
+<h2 class="style">A simple recipe for your garden grown Swiss Chard.</h2>
+<div class="recipe">
+it's sometimes hard to know what to do with a vegetable once you've grown it. Swiss Chard is like that. Swiss Chard like Radicchio, is bitter raw but provides depth and flavor when cooked.
+This recipe is a quick and colorful meal that takes only 30 minutes.
+<img src="/sites/default/files/blog/IMG_2137.JPG">
+<div class="recipeIngredents">
+<h3>Ingredients</h3>
+<dl>
+<dt><span>1 Bunch / 6 leaves</span></dt><dd>Swiss Chard</dd>
+<dt><span>3 Ounces</span></dt><dd>Ricotta Cheese</dd>
+<dt><span>1 Pound</span></dt><dd>Rotini Pasta</dd>
+<dt><span>2 </span></dt><dd>Cloves of Garlic</dd>
+<dt><span>1</span></dt><dd>Onion or equivalent Leaks</dd>
+<dt><span>1 Tbsp.</span></dt><dd>Vegetable Oil</dd>
+<dt><span>1 Cup</span></dt><dd>Liquid, reserved from pasta water</dd>
+<dt><span>16 Oz.</span></dt><dd>Sausage (optional)</dd>
+</dl></div>
+<div class="recipeSteps">
+<h3>Directions</h3>
+<ul><li><span class="recipeStepsHeading">1.</span> <span class="recipeStepsBody">Cook pasta to package directions.</span>
+</li><li><span class="recipeStepsHeading">2.</span> <span class="recipeStepsBody">In a dutch oven or large heavy saucepan, brown 16 oz. of sausage. Set aside.</span>
+</li><li><span class="recipeStepsHeading">3.</span> <span class="recipeStepsBody">Add in vegetable oil, onions and garlic. Cook over medium heat till soft.</span>
+</li><li><span class="recipeStepsHeading">4.</span> <span class="recipeStepsBody">Add chopped swiss chard. Continue cooking over medium heat until wilted.</span>
+</li><li><span class="recipeStepsHeading">5.</span> <span class="recipeStepsBody">Combine all other ingredients, sausage, ricotta cheese and pasta.</span>
+</li><li><span class="recipeStepsHeading">6.</span> <span class="recipeStepsBody">Add reserved pasta water as needed.</span>
+</li></ul>
+Garnish with grated romano or parmesan cheese. A simple great tasting recipe with vegetables you grew yourself.
+<img src="/sites/default/files/blog/IMG_2141.jpg">
+</div></div>

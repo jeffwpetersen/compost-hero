@@ -36,7 +36,7 @@ section {
   position: relative;
 }
 
-.section {
+.section { // add section before or after background color declaration.
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -87,6 +87,13 @@ section {
     }
     @include breakpoint($big) {
     }
+  }
+}
+
+.main-full {
+  .layout-container {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -162,6 +169,25 @@ section {
   }
   @include breakpoint($big) {
     grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  }
+}
+
+.grid-of-2 {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-column-gap: 2rem;
+  .grid-item {
+    grid-column: span 6;
+  }
+}
+
+
+.grid-of-3 {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-column-gap: 2rem;
+  .grid-item {
+    grid-column: span 4;
   }
 }
 
