@@ -179,6 +179,12 @@ section {
   .grid-item {
     grid-column: span 6;
   }
+  @include breakpoint($phone) {
+    display: flex;
+    flex-direction: column;
+  }
+  @include breakpoint($tween) {
+  }
 }
 
 
@@ -188,6 +194,14 @@ section {
   grid-column-gap: 2rem;
   .grid-item {
     grid-column: span 4;
+  }
+  @include breakpoint($phone) {
+    display: flex;
+    flex-direction: column;
+  }
+  @include breakpoint($tween) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
