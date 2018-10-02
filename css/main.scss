@@ -14,14 +14,14 @@
 @import "style";
 @import "nav";
 
-
 .main-section {
-    //@include baseline-grid();
+  //@include baseline-grid();
 }
+
 .site-width {
   // background: susy-svg-grid() no-repeat scroll;
+  //max-width: 500px;
 }
-
 
 html {
   // set font size for responsive type
@@ -39,50 +39,6 @@ body {
 }
 
 /*
-nav {
-  background-color: $theme-color;
-  border-bottom: solid 7px $theme-tint;
-  border-top: solid 1px $theme-dark;
-  .top-menu {
-    ul {
-      display: flex;
-      margin: 0px;
-      padding: 0px;
-      li {
-        list-style: none;
-        margin: 0px;
-        padding: 0px;
-        border-top-left-radius: .2rem .2rem;
-        border-top-right-radius: .2rem .2rem;
-        a {
-          color: white;
-          font-size: 1rem;
-          display: block;
-          padding: 1rem 2rem;
-          text-decoration: none;
-          font-size: 1.2rem;
-          letter-spacing: .1rem;
-          text-transform: uppercase;
-        }
-        &:hover {
-          background-color: $theme-dark;
-          border-bottom-color: White;
-        }
-      }
-
-    }
-    .active-trail {
-      a {
-        background-color: #483e0e;
-      }
-    }
-
-  }
-}
-*/
-
-
-/*
 * theme
 */
 
@@ -91,7 +47,7 @@ nav {
   .grid-item {
     img {
       border: solid 1px gray;
-      display:block;
+      display: block;
     }
   }
 }
@@ -99,18 +55,23 @@ nav {
 .open-sans {
   font-family: "opensans" !important;
 }
+
 .olive {
   color: #0a2b1d !important;
 }
+
 .green {
   color: #576240;
 }
+
 .light-green {
   color: #aec380 !important;
 }
+
 .black {
   color: #000000;
 }
+
 .gray {
   color: #494949;
 }
@@ -134,8 +95,6 @@ nav {
   line-height: 140%;
 
 }
-
-
 
 /*
 * in progress
@@ -213,13 +172,14 @@ header {
     }
   }
 }
+
 .green-break {
   background-color: #aec380;
 }
+
 .yellow-border-top {
   border-top: solid 8px #f2c53a;
 }
-
 
 .light-callout {
   padding: 31px 93px;
@@ -227,15 +187,18 @@ header {
   font-weight: bold !important;
   color: #ffffff;
 }
+
 h2.bed-of-vegetables {
   color: #000000;
   margin: 62px 93px;
   font-weight: bold;
 }
+
 .img-down {
   position: relative;
   bottom: -50px;
 }
+
 .dirt-break {
   background-color: #594A42;
   .padding {
@@ -253,11 +216,13 @@ h2.bed-of-vegetables {
     }
   }
 }
+
 .learn-about-the-soil-food-web {
   color: #FFF;
   padding: 62px 93px !important;
   font-weight: bold;
 }
+
 .white-border {
   border: solid 20px white;
 }
@@ -274,12 +239,14 @@ h2.bed-of-vegetables {
   margin-top: 110px;
   position: relative;
 }
+
 .light-blue-break {
   border-top: solid 8px #f2c53a;
   background-color: #E1F4FD;
   padding: 40px 0 0 0;
   position: relative;
 }
+
 .blue-grade {
   background-color: #ffffff; // Old browsers
   //@include background-image(linear-gradient(top, #ffffff 0%,#89e7ff 100%));
@@ -297,7 +264,6 @@ h2.bed-of-vegetables {
   }
 }
 
-
 main {
   font-family: "opensans";
   -webkit-box-sizing: border-box;
@@ -308,7 +274,7 @@ main {
     text-transform: uppercase;
     color: #576240 !important;
     font-weight: bold;
-    font-size:2.4em;
+    font-size: 2.4em;
     letter-spacing: -1px !important;
     line-height: 98%;
     -webkit-box-sizing: border-box;
@@ -343,7 +309,6 @@ main {
   }
 }
 
-
 footer {
   background-color: #576240;
   padding: 5rem;
@@ -353,35 +318,24 @@ footer {
 
 
 
-.main-nav {
-  position: relative;
-}
-
-
-nav {
+.navBar {
+  @include breakpoint(($phone, $tween)) {
+    position: absolute;
+    top: 0;
+  }
   background-color: $theme-color;
   border-bottom: solid 7px $theme-tint;
   border-top: solid 1px $theme-dark;
   min-width: 100%;
   z-index: 1000;
-  @media screen and (max-width: 1068px) {
-    position: absolute;
-    top: 0;
-  }
-}
-
-
-// Full Navigation, including mobile menu
-.navBar {
   ul {
     display: flex;
-    //justify-content: space-between;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
   }
 
-  li  {
+  li {
     display: inline-block;
     list-style: none;
     margin: 0px;
@@ -404,17 +358,19 @@ nav {
     }
   }
 
-  #menu-toggle {display: none;}
-
-  .label-toggle {display: none;}
-
-  .wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+  #menu-toggle {
+    display: none;
   }
 
-  @media screen and (max-width: 1068px) {
+  .label-toggle {
+    display: none;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  @include breakpoint(($phone, $tween)) {
     nav {
       ul {
         a {
@@ -458,7 +414,9 @@ nav {
       width: 35px;
     }
 
-    .wrapper {display: block;}
+    .wrapper {
+      display: block;
+    }
   }
 }
 
