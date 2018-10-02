@@ -95,7 +95,7 @@ h1 {
             $grid-height: $base-grid-height,
             $baseline: $headline-baseline,
             $font-size: $h1-size * .5,
-            $line-height: 3,
+            $line-height: 2,
             $leading-top: 6,
             $leading-bottom: 1
     );
@@ -137,7 +137,7 @@ h2 {
             $grid-height: $base-grid-height,
             $baseline: $headline-baseline,
             $font-size: $h2-size * .55,
-            $line-height: 1,
+            $line-height: 2,
             $leading-top: 3,
             $leading-bottom: 1
     );
@@ -182,7 +182,7 @@ h3, .h3-size {
             $grid-height: $base-grid-height,
             $baseline: $headline-baseline,
             $font-size: $h3-size * .55,
-            $line-height: 1,
+            $line-height: 2,
             $leading-top: 1,
             $leading-bottom: 1
     );
