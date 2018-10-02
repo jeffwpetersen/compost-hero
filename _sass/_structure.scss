@@ -184,6 +184,8 @@ section, nav {
     flex-direction: column;
   }
   @include breakpoint($tween) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -202,6 +204,97 @@ section, nav {
   @include breakpoint($tween) {
     display: flex;
     flex-direction: column;
+  }
+}
+
+
+/*
+* Nav
+*/
+
+.main-nav {
+  min-height: 50px; //ugh
+  .navBar {
+    @include breakpoint(($phone, $tween)) {
+      position: absolute;
+      top: 0;
+    }
+    min-width: 100%;
+    z-index: 100;
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+
+    }
+
+    #menu-toggle {
+      display: none;
+    }
+
+    .label-toggle {
+      display: none;
+    }
+
+    .wrapper {
+      display: flex;
+    }
+
+    @include breakpoint(($phone, $tween)) {
+      nav {
+        ul {
+          a {
+            color: $theme-dark;
+          }
+        }
+      }
+      ul {
+        background-color: $theme-dark;
+        display: block;
+        height: 0;
+        list-style-type: none;
+        opacity: 0;
+        text-align: center;
+        width: 100%;
+        visibility: hidden;
+        transition: all 1s ease;
+      }
+
+      li {
+        border-bottom: 2px solid $theme-tint;
+        color: $theme-dark;
+        display: block;
+        padding: 2em 0;
+      }
+
+      #menu-toggle:checked ~ ul {
+        opacity: 1;
+        height: 100%;
+        visibility: visible;
+      }
+
+      .label-toggle {
+        background: linear-gradient(to bottom, $theme-tint 20%, transparent 20%, transparent 40%, $theme-tint 40%, $theme-tint 60%, transparent 60%, transparent 80%, $theme-tint 80%, $theme-tint 100%); //Gradient Hamburger
+        cursor: pointer;
+        display: block;
+        float: right;
+        min-height: 35px;
+        width: 35px;
+        margin: .5em;
+      }
+
+      .wrapper {
+        //display: block;
+      }
+    }
   }
 }
 
