@@ -175,7 +175,7 @@ section, nav {
 
 .grid-of-2 {
   display: grid;
-  grid-template-columns: repeat(12, 4fr);
+  grid-template-columns: repeat(12, 6fr);
   grid-column-gap: 2rem;
   .grid-item {
     grid-column: span 6;
